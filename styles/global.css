@@ -8,3 +8,13 @@
 html {
 	scroll-behavior: smooth;
 }
+ul {
+	list-style-type: none;
+}
+a{
+    text-decoration: none;
+	color: #f1f1f1;
+}
+section:nth-child(1) {
+    padding: 0 10px;
+}
