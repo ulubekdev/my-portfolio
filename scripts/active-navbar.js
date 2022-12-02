@@ -27,9 +27,9 @@ function makeSticky() {
 		navbar.classList.add("sticky");
 	}
 }
-function hoverOver (i) {
-	i.classList.add("fa-bounce");
-}
-function hoverOut (i) {
-	i.classList.remove("fa-bounce");
-}
+// function hoverOver (i) {
+// 	i.classList.add("fa-bounce");
+// }
+// function hoverOut (i) {
+// 	i.classList.remove("fa-bounce");
+// }

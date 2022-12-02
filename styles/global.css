@@ -4,7 +4,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
-	background-color: rgb(241, 231, 218);
 }
 html {
 	scroll-behavior: smooth;
@@ -18,4 +17,11 @@ a {
 }
 section:nth-child(1) {
     padding: 0 10px;
+}
+:root {
+	--home-icon: #f92418;
+	--about-icon: #9d7463;
+	--edu-icon: #ff652f;
+	--pro-icon: #0074D9;
+	--contact-icon: #2ECC40;
 }

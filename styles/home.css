@@ -7,12 +7,16 @@
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
+	color: #f1f1f1;
 }
 .home_text {
 	text-align: center;
 	font-size: 42px;
 	font-weight: 300;
 	user-select: none;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
+	padding: 50px;
 }
 .fullName {
 	color: aqua;
@@ -50,7 +54,7 @@
 	transform: scale(1);
 }
 
-.effect1 .bg {
+.effect1 .bg-btn {
 	background: aqua;
 	width: 30px;
 	height: 2px;
@@ -70,7 +74,7 @@
 	cursor: pointer;
 }
 
-.effect1:hover .bg {
+.effect1:hover .bg-btn {
 	height: 100%;
 	width: 100%;
 	-webkit-transform: translate(0, -50%);
@@ -78,8 +82,8 @@
 	transform: translate(0, -50%);
 }
 
-.effect1 .bg:before,
-.effect1 .bg:after {
+.effect1 .bg-btn:before,
+.effect1 .bg-btn:after {
 	content: "";
 	height: 2px;
 	width: 10px;
@@ -91,28 +95,28 @@
 	transition: all 0.3s;
 }
 
-.effect1 .bg:before {
+.effect1 .bg-btn:before {
 	bottom: 3px;
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-.effect1 .bg:after {
+.effect1 .bg-btn:after {
 	top: 3px;
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
 
-.effect1:hover .bg:before,
-.effect1:hover .bg:after {
+.effect1:hover .bg-btn:before,
+.effect1:hover .bg-btn:after {
 	right: 0;
 }
 
-.effect1:hover .bg:before {
+.effect1:hover .bg-btn:before {
 	bottom: 6px;
 }
 
-.effect1:hover .bg:after {
+.effect1:hover .bg-btn:after {
 	top: 6px;
 }

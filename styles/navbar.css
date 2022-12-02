@@ -3,16 +3,20 @@
 	gap: 50px;
 	text-transform: uppercase;
 	overflow: hidden;
+	border-radius: 50px;
+	background-color:rgba(255,255,255,.6);
 }
-
 #navbar a {
 	float: left;
 	display: block;
-	color: black;
 	text-align: center;
-	padding: 35px 20px;
+	padding: 40px 35px;
 	text-decoration: none;
 	font-size: 20px;
+	color: black;
+}
+#navbar .active {
+	color: var(--home-icon);
 }
 
 #navbar a:hover {
@@ -26,21 +30,29 @@
 	transition: 0.5s ease-in-out;
 }
 .home i:hover {
-	color: red;
+	color: var(--home-icon);
 	transition: 0.3s ease-in-out;
 }
-.content {
-	padding: 16px;
+.about i:hover {
+	color: var(--about-icon);
+	transition: 0.3s ease-in-out;
 }
-
+.education i:hover {
+	color: var(--edu-icon);
+	transition: 0.3s ease-in-out;
+}
+.projects i:hover {
+	color: var(--pro-icon);
+	transition: 0.3s ease-in-out;
+}
+.contact i:hover {
+	color: var(--contact-icon);
+	transition: 0.3s ease-in-out;
+}
 .sticky {
 	display: flex;
 	position: fixed;
-	bottom: 0;
+	bottom: 3%;
 	left: 50%;
     transform: translate(-50%, 0);
-}
-
-.sticky + .content {
-	padding-top: 60px;
 }
