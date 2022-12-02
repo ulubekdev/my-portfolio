@@ -4,6 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
+	background-color: rgb(241, 231, 218);
 }
 html {
 	scroll-behavior: smooth;
@@ -11,7 +12,7 @@ html {
 ul {
 	list-style-type: none;
 }
-a{
+a {
     text-decoration: none;
 	color: #f1f1f1;
 }

@@ -1,8 +1,8 @@
 const sections = document.querySelectorAll("section");
 const navbarEle = document.querySelectorAll("#navbar a");
+
 const navbar = document.getElementById("navbar");
 const sticky = navbar.offsetTop;
-
 
 window.onscroll = () => {
 	makeSticky();
@@ -11,8 +11,6 @@ window.onscroll = () => {
 	sections.forEach((section) => {
 		const sectionTop = section.offsetTop;
 		if (pageYOffset > sectionTop - 60) {
-			// console.log(sectionTop);
-			// console.log(pageXOffset);
 			current = section.getAttribute("id");
 		}
 	});
@@ -25,9 +23,13 @@ window.onscroll = () => {
 	});
 };
 function makeSticky() {
-	if (window.pageYOffset >= sticky) {
+	if (window.pageYOffset < sticky) {
 		navbar.classList.add("sticky");
-	} else {
-		navbar.classList.remove("sticky");
 	}
+}
+function hoverOver (i) {
+	i.classList.add("fa-bounce");
+}
+function hoverOut (i) {
+	i.classList.remove("fa-bounce");
 }

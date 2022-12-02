@@ -1,6 +1,6 @@
-.home-section {
+/* .home-section {
 	background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-}
+} */
 .home_container {
 	display: flex;
 	flex-direction: column;
@@ -13,7 +13,6 @@
 	font-size: 42px;
 	font-weight: 300;
 	user-select: none;
-	color: #f1f1f1;
 }
 .fullName {
 	color: aqua;
