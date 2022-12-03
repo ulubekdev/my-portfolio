@@ -1,11 +1,7 @@
 const sections = document.querySelectorAll("section");
 const navbarEle = document.querySelectorAll("#navbar a");
 
-const navbar = document.getElementById("navbar");
-const sticky = navbar.offsetTop;
-
 window.onscroll = () => {
-	makeSticky();
 	let current = "";
 
 	sections.forEach((section) => {
@@ -22,11 +18,6 @@ window.onscroll = () => {
 		}
 	});
 };
-function makeSticky() {
-	if (window.pageYOffset < sticky) {
-		navbar.classList.add("sticky");
-	}
-}
 // function hoverOver (i) {
 // 	i.classList.add("fa-bounce");
 // }

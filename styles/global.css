@@ -12,16 +12,16 @@ ul {
 	list-style-type: none;
 }
 a {
-    text-decoration: none;
+	text-decoration: none;
 	color: #f1f1f1;
 }
 section:nth-child(1) {
-    padding: 0 10px;
+	padding: 0 10px;
 }
 :root {
 	--home-icon: #f92418;
 	--about-icon: #9d7463;
 	--edu-icon: #ff652f;
-	--pro-icon: #0074D9;
-	--contact-icon: #2ECC40;
+	--pro-icon: #0074d9;
+	--contact-icon: #2ecc40;
 }
