@@ -1,12 +1,15 @@
 #navbar {
+	z-index: 1000;
 	gap: 40px;
-	border-radius: 50px;
+	border-radius: 20px;
 	background-color:rgba(255,255,255,.6);
+	display: flex;
+	justify-content: center;
 }
 #navbar a {
 	font-size: 18px;
 	text-align: center;
-	padding: 40px 35px;
+	padding: 35px 35px;
 	color: black;
 }
 #navbar .home.active {

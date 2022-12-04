@@ -1,7 +1,6 @@
 .home-section {
 	z-index: 1;
-	/* background-color: #8BC6EC; */
-	background-image: linear-gradient(135deg, #141e30, #243b55);
+	background-image: linear-gradient(135deg, #141e30, #8BC6EC);
 	animation: gradient 15s ease-in-out infinite;
 	background-size: 400% 400%;
 }
@@ -24,6 +23,15 @@
 	justify-content: center;
 	min-height: 100vh;
 	color: #f1f1f1;
+	animation: animate 1s;
+}
+@keyframes animate {
+	from{
+		transform: rotateX(60deg);
+	}
+	to {
+		transform: rotateX(0deg);
+	}
 }
 .home_text {
 	text-align: center;
