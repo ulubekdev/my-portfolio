@@ -1,24 +1,29 @@
 #navbar {
-	overflow: hidden;
-	gap: 50px;
-	text-transform: uppercase;
-	overflow: hidden;
+	gap: 40px;
 	border-radius: 50px;
 	background-color:rgba(255,255,255,.6);
 }
 #navbar a {
-	float: left;
-	display: block;
+	font-size: 18px;
 	text-align: center;
 	padding: 40px 35px;
-	text-decoration: none;
-	font-size: 20px;
 	color: black;
 }
-#navbar .active {
+#navbar .home.active {
 	color: var(--home-icon);
 }
-
+#navbar .about.active {
+	color: var(--about-icon);
+}
+#navbar .education.active {
+	color: var(--edu-icon);
+}
+#navbar .projects.active {
+	color: var(--pro-icon);
+}
+#navbar .contact.active {
+	color: var(--contact-icon);
+}
 #navbar a:hover {
 	transform: scale(1.5);
 	transition: 0.3s ease-in-out;
