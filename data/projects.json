@@ -72,7 +72,7 @@
     {
         "id": 11,
         "name": "Weather Telegram Bot",
-        "description": "A fast and easy-to-use telegram made using the grammy telegram bot framework will tell you the weather in any country",
+        "description": "A fast and easy-to-use telegram made using the grammy telegram bot framework",
         "url": "https://t.me/havouz_bot",
         "image": "../assets/ob-havo.jpg"
     }
