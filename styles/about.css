@@ -1,88 +1,75 @@
-.header {
-	text-shadow: 100px;
-	font-size: 38px;
-	font-weight: 500;
-	padding: 100px;
-	text-align: center;
-	text-transform: uppercase;
-}
-.header hr {
-	width: 20%;
-	margin-top: 10px;
-	border: 1px solid black;
-	margin-left: auto;
-	margin-right: auto;
-}
 .about-work {
 	display: flex;
 	text-align: center;
-	justify-content: center;
-	gap: 80px;
+	gap: 65px;
 	line-height: 25px;
 }
-.about-container {
-	width: 256px;
-}
-.p-head {
-	padding: 20px;
+.icon_title {
+	margin: 20px 0;
 	font-size: 24px;
 	font-weight: 500;
 }
-/* .f {
-	color: red;
+.icon_text {
+	color: #666;
 }
-.s {
-	color: blue;
-}
-.q {
-	color: green;
-}
-.cc {
-	color: yellow;
-} */
-.p-text {
-	margin-top: 10px;
-	font-weight: 400;
-}
-.about-me {
+.about_content {
 	margin: 100px 0;
-	display: flex;
-	line-height: 26px;
-	justify-content: center;
-	align-items: center;
-}
-.my-img img {
-	border-radius: 30px;
-	width: 300px;
-	height: 300px;
-}
-.my-text {
-	margin: 0 0 0 50px;
-	font-size: 20px;
-}
-/* .my-text div {
-	font-size: 30px;
-	font-weight: 500;
-	padding: 50px 0;
-} */
-.my-text p span {
-	font-weight: 600;
-}
-.my-skills {
 	display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
-    gap: 0px 10px;
-    padding: 0px;
-    margin: 20px 0px 0px;
-    overflow: hidden;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10rem;
 }
-.my-skills li {
-	padding: 5px;
-	display: list-item;
+.about__title {
+	font-weight: 500;
+	font-size: 32px;
+	margin-bottom: 3rem;
 }
-
+.about_text-p {
+	font-size: 18px;
+	color: #666;
+	max-width: 60rem;
+	line-height: 1.7;
+	margin-bottom: 1rem;
+}
+.about_text-p:last-child {
+	margin-bottom: 3rem;
+}
+.about__contact-btn {
+	outline: none;
+	cursor: pointer;
+	border: none;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    transition: .3s;
+	background: #facf0f;
+    color: white;
+	padding: 1.2rem 5rem;
+    font-size: 18px;
+}
+.about__contact-btn:hover {
+	color: black;
+	background: transparent;
+	border: 2px solid #facf0f;
+}
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+}
+.skills__skill {
+	padding: 1rem 2rem;
+	margin-bottom: 1rem;
+	margin-right: 1.5rem;
+	font-size: 16px;
+	background: rgba(153, 153, 153, 0.2);
+	border-radius: 5px;
+	font-weight: 600;
+	color: #666;
+}
 .about-icon {
-	font-size: 120px;
+	font-size: 100px;
 	animation: about 1s;
 }
 @keyframes about {

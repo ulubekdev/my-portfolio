@@ -15,14 +15,11 @@ a {
 	text-decoration: none;
 	color: #f1f1f1;
 }
-section:nth-child(1) {
-	padding: 0 10px;
-}
 section:nth-child(4) {
 	background-color: #F5F5F5;
 }
 section {
-	padding: 0 330px;
+	padding: 0 300px;
 }
 :root {
 	--home-icon: #f92418;
@@ -30,4 +27,19 @@ section {
 	--edu-icon: #ff652f;
 	--pro-icon: #0074d9;
 	--contact-icon: #2ecc40;
+}
+.header {
+	font-size: 38px;
+	font-weight: 500;
+	margin: 80px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.header hr {
+	width: 5%;
+	margin-top: 10px;
+	border: 2px solid black;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
