@@ -32,10 +32,10 @@
 	transition: 0.3s ease-in-out;
 }
 #navbar a:not(:hover) {
-	transition: 0.5s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 #navbar a i:not(:hover) {
-	transition: 0.5s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 .home i:hover {
 	color: var(--home-icon);

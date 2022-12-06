@@ -15,23 +15,29 @@ a {
 	text-decoration: none;
 	color: #f1f1f1;
 }
-section:nth-child(4) {
+section:nth-child(odd) {
 	background-color: #F5F5F5;
 }
-section {
-	padding: 0 300px;
+.about-section {
+	padding: 100px 330px;
+}
+.projects-section {
+	padding: 100px 330px;
+}
+.contact-section {
+	padding: 100px 330px;
 }
 :root {
 	--home-icon: #f92418;
-	--about-icon: #9d7463;
+	--about-icon: #facf0f;
 	--edu-icon: #ff652f;
 	--pro-icon: #0074d9;
 	--contact-icon: #2ecc40;
 }
 .header {
+	margin-bottom: 100px;
 	font-size: 38px;
 	font-weight: 500;
-	margin: 80px 0;
 	text-align: center;
 	text-transform: uppercase;
 }
