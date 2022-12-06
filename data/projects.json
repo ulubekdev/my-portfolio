@@ -74,6 +74,6 @@
         "name": "Weather Telegram Bot",
         "description": "A fast and easy-to-use telegram made using the grammy telegram bot framework",
         "url": "https://t.me/havouz_bot",
-        "image": "../assets/ob-havo.jpg"
+        "image": "../assets/weather.jpeg"
     }
 ]

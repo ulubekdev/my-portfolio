@@ -4,9 +4,6 @@
 	grid-template-columns: repeat(3, 550px);
 	grid-template-rows: repeat(3, 350px);
 }
-.container {
-	border: 1px solid red;
-}
 .content {
 	position: relative;
 	width: 100%;
@@ -16,7 +13,7 @@
 }
 
 .content .content-overlay {
-	background: white;
+	background: whitesmoke;
 	position: absolute;
 	height: 99%;
 	width: 100%;
@@ -63,7 +60,7 @@
 }
 
 .content-details h3 {
-	color: #0074d9;
+	color: var(--main-color);
 	font-size: 30px;
 	font-weight: 600;
 	letter-spacing: 0.15em;

@@ -16,7 +16,7 @@ a {
 	color: #f1f1f1;
 }
 section:nth-child(even) {
-	background-color: #F5F5F5;
+	background-color: #f5f5f5;
 }
 .about-section {
 	padding: 100px 330px;
@@ -27,25 +27,60 @@ section:nth-child(even) {
 .contact-section {
 	padding: 100px 330px;
 }
+.footer {
+	padding: 100px 330px 30px 330px;
+}
 :root {
 	--home-icon: #f92418;
 	--about-icon: #facf0f;
 	--edu-icon: #ff652f;
 	--pro-icon: #0074d9;
 	--contact-icon: #2ecc40;
+	--main-color: #4cd1ca;
 }
 .header {
 	margin-bottom: 100px;
 	font-size: 38px;
-	font-weight: 500;
+	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
 }
 .header hr {
 	width: 5%;
 	margin-top: 10px;
-	border: 2px solid black;
+	border: 2px solid var(--main-color);
 	border-radius: 50px;
 	margin-left: auto;
 	margin-right: auto;
+}
+input {
+	writing-mode: horizontal-tb !important;
+	text-rendering: auto;
+	letter-spacing: normal;
+	word-spacing: normal;
+	line-height: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+}
+.btn {
+	outline: none;
+	cursor: pointer;
+	border: none;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    transition: .3s;
+	background: var(--main-color);
+    color: white;
+	padding: 1.2rem 5rem;
+    font-size: 18px;
+}
+.btn:hover {
+	color: black;
+	background: transparent;
+	border: var(--main-color);
 }

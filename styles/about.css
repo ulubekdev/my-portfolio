@@ -33,27 +33,6 @@
 .about_text-p:last-child {
 	margin-bottom: 3rem;
 }
-.about__contact-btn {
-	outline: none;
-	cursor: pointer;
-	border: none;
-	text-transform: uppercase;
-    letter-spacing: 1px;
-    display: inline-block;
-    font-weight: 700;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
-    transition: .3s;
-	background: #facf0f;
-    color: white;
-	padding: 1.2rem 5rem;
-    font-size: 18px;
-}
-.about__contact-btn:hover {
-	color: black;
-	background: transparent;
-	border: #facf0f;
-}
 .skills {
 	display: flex;
 	flex-wrap: wrap;

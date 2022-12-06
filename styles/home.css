@@ -43,7 +43,7 @@
 	padding: 50px;
 }
 .fullName {
-	color: #4cd1ca;
+	color: var(--main-color);
 	font-size: 45px;
 	font-weight: 500;
 }
@@ -51,7 +51,7 @@
 	margin-top: 50px;
 	outline: none;
 	cursor: pointer;
-	border: 2px solid #4cd1ca;
+	border: 2px solid var(--main-color);
 	text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
@@ -65,7 +65,7 @@
 }
 .btn-more:hover {
 	color: #f1f1f1;
-	background: #4cd1ca;
+	background: var(--main-color);
 }
 .btn-more:not(:hover) {
 	transition: 0.5s ease-in-out;
