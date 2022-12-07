@@ -154,9 +154,9 @@
 					</div>
 					<div class="contact__form-field">
 						<label class="contact__form-label" for="message">Message</label>
-						<textarea required class="contact__form-input" name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+						<textarea style="resize: none" required class="contact__form-input" name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
 					</div>
-					<button type="submit" class="contact__btn btn">Submit</button>
+					<button type="submit" class="contact__btn btn" onclick="sendMail(); return false">Submit</button>
 				</form>
 			</div>
 		</section>
@@ -187,5 +187,6 @@
 		</footer>
 		<script src="./scripts/active-navbar.js"></script>
 		<script src="./scripts/projects.js"></script>
+		<script src="./scripts/send-email.js"></script>
 	</body>
 </html>
