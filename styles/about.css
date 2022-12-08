@@ -27,11 +27,14 @@
 	font-size: 18px;
 	color: #666;
 	max-width: 60rem;
-	line-height: 1.7;
+	line-height: 1.8;
 	margin-bottom: 1rem;
 }
 .about_text-p:last-child {
 	margin-bottom: 3rem;
+}
+.about_text-p li {
+	padding: 7px;
 }
 .skills {
 	display: flex;
