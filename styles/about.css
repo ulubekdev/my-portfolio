@@ -63,7 +63,7 @@
 		font-size: 22pt;
 	}
 	.about-section {
-		padding: 120px 10px;
+		padding: 120px 10px 50px 10px;
 	}
 	.about-container {
 		min-height: 100%;
@@ -105,10 +105,19 @@
 		padding: 7px 18px;
 		font-size: 15px;
 	}
+	.about_text-p:last-child {
+		margin-bottom: 1rem;
+	}
 	.about_text-p li::before {
 		font-weight: bold; /* If you want it to be bold */
 		display: inline-block;
-		width: 1em;
-		margin-left: -1em;
+	}
+	.skills {
+		justify-content: center;
+	}
+	.skills__skill {
+		padding: 1rem 1rem;
+		margin-bottom: 10px;
+		margin-right: 10px;
 	}
 }
