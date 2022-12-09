@@ -1,38 +1,50 @@
 .contact-section {
 	padding: 100px 330px;
 }
-.contact__form-container{
-    box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
-    background: #fff;
-    padding: 4rem;
-    margin-top: 6rem;
-    max-width: 80rem;
-    text-align: right;
-    width: 95%;
-    border-radius: 5px;
-    margin: 5rem auto 0 auto;
+.contact__form-container {
+	box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+	background: #fff;
+	padding: 4rem;
+	margin-top: 6rem;
+	max-width: 80rem;
+	text-align: right;
+	width: 95%;
+	border-radius: 5px;
+	margin: 5rem auto 0 auto;
 }
 .contact__form-input {
-    outline: none;
-    color: #333;
-    padding: 20px;
-    width: 100%;
-    border: 1px solid #ebebeb;
-    font-size: 16px;
-    letter-spacing: 0;
-    background: #f0f0f0;
-    border-radius: 5px;
-    font-weight: 600;
+	outline: none;
+	color: #333;
+	padding: 20px;
+	width: 100%;
+	border: 1px solid #ebebeb;
+	font-size: 16px;
+	letter-spacing: 0;
+	background: #f0f0f0;
+	border-radius: 5px;
+	font-weight: 600;
 }
 .contact__form-label {
-    color: #666;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    display: block;
-    text-align: left;
+	color: #666;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	display: block;
+	text-align: left;
 }
 .contact__form-field {
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	.contact-section {
+		padding: 120px 10px 50px 10px;
+	}
+	.contact__form-container {
+        padding: 20px;
+	}
+	.contact__form-input {
+		padding: 12px;
+		font-weight: 400;
+	}
 }
