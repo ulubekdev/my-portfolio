@@ -1,6 +1,6 @@
 const sections = document.querySelectorAll("section");
-const navbarEle = document.querySelectorAll("#navbar a");
-const navbar = document.querySelector('#navbar');
+const navbarEle = document.querySelectorAll(".topnav a");
+const navbar = document.querySelector('.topnav');
 
 let sticky = navbar.offsetTop;
 

@@ -1,6 +1,6 @@
 .home-section {
 	z-index: 1;
-	background-image: linear-gradient(135deg, #141e30, #297ab0);
+	background-image: linear-gradient(135deg, #28313b, #626d78);
 	animation: gradient 15s ease-in-out infinite;
 	background-size: 400% 400%;
 }
@@ -27,11 +27,11 @@
 }
 
 @keyframes animate {
-	from{
-		transform:scale(0.3);
+	from {
+		transform: scale(0.3);
 	}
 	to {
-		transform:scale(1);
+		transform: scale(1);
 	}
 }
 .home_text {
@@ -54,15 +54,15 @@
 	cursor: pointer;
 	border: 2px solid var(--main-color);
 	text-transform: uppercase;
-    letter-spacing: 1px;
-    display: inline-block;
-    font-weight: 700;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
-    transition: .3s;
-    color: whitesmoke;
+	letter-spacing: 1px;
+	display: inline-block;
+	font-weight: 700;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+	transition: 0.3s;
+	color: whitesmoke;
 	padding: 1.2rem 5rem;
-    font-size: 18px;
+	font-size: 18px;
 }
 .btn-more:hover {
 	color: #f1f1f1;
@@ -76,7 +76,7 @@ a {
 	color: #f1f1f1;
 }
 
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 480px) {
 	.home_text {
 		font-size: 25px;
 	}
@@ -84,7 +84,8 @@ a {
 		font-size: 25px;
 	}
 	.btn-more {
-		font-size: 13px;
-		padding: 16px;
+		margin-top: 20px;
+		font-size: 10px;
+		padding: 10px;
 	}
 }
