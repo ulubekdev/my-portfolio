@@ -10,7 +10,6 @@ function stcky () {
 		navbar.classList.remove("sticky");
 	}
 }
-
 window.onscroll = () => {
 	stcky();
 	let current = "";

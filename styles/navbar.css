@@ -2,7 +2,7 @@
 	z-index: 1000;
 	gap: 60px;
 	border-radius: 20px;
-	background-color:rgba(255,255,255,.6);
+	background-color: rgba(255, 255, 255, 0.6);
 	display: flex;
 	justify-content: center;
 }
@@ -58,9 +58,21 @@
 	transition: 0.3s ease-in-out;
 }
 .sticky {
-	display: flex;
-	position: fixed;
-	bottom: 3%;
 	left: 50%;
-    transform: translate(-50%, 0);
+	transform: translateX(-50%);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	#navbar {
+		gap: 20px;
+	}
+	#navbar a {
+		padding: 15px 15px;
+		font-size: 16px;
+	}
+	.sticky {
+		display: flex;
+		position: sticky;
+		top: 0;
+	}
 }

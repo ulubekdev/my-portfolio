@@ -55,13 +55,8 @@
 }
 .about-icon {
 	font-size: 100px;
-	animation: about 1s;
 }
-@keyframes about {
-	from {
-		transform: rotateY(180deg);
-	}
-	to {
-		transform: rotateY(0deg);
-	}
+
+@media (min-width: 320px) and (max-width: 480px){
+
 }

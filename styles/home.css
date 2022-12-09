@@ -76,4 +76,15 @@ a {
 	color: #f1f1f1;
 }
 
-@media (max-width: 480px) {}
+@media (min-width: 320px) and (max-width: 480px){
+	.home_text {
+		font-size: 25px;
+	}
+	.fullName {
+		font-size: 25px;
+	}
+	.btn-more {
+		font-size: 13px;
+		padding: 16px;
+	}
+}
