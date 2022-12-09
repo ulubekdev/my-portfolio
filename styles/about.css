@@ -1,7 +1,7 @@
 .about-section {
 	padding: 100px 330px;
 }
-.about-work {
+.about-container {
 	display: flex;
 	text-align: center;
 	gap: 65px;

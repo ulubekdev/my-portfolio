@@ -9,7 +9,6 @@ async function renderProjects() {
 		project.className = "projects__project";
 		project.setAttribute("pro-id", ele.id);
 		project.innerHTML = `
-            <div class="content">
                 <a href="${ele.url}" target="_blank">
                 <div class="content-overlay"></div>
                 <img class="content-image" src="${ele.image}">
@@ -18,7 +17,6 @@ async function renderProjects() {
                     <p>${ele.description}</p>
                 </div>
                 </a>
-            </div>
         `;
 
         projectsContainer.append(project);

@@ -8,7 +8,7 @@
 	grid-template-columns: repeat(3, 550px);
 	grid-template-rows: repeat(3, 350px);
 }
-.content {
+.projects__project {
 	position: relative;
 	width: 100%;
 	max-width: 600px;
@@ -16,7 +16,7 @@
 	overflow: hidden;
 }
 
-.content .content-overlay {
+.projects__project .content-overlay {
 	background: whitesmoke;
 	position: absolute;
 	height: 99%;
@@ -31,7 +31,7 @@
 	transition: all 0.5s ease-in-out 0s;
 }
 
-.content:hover .content-overlay {
+.projects__project:hover .content-overlay {
 	opacity: 1;
 }
 
@@ -57,7 +57,7 @@
 	transition: all 0.5s ease-in-out 0s;
 }
 
-.content:hover .content-details {
+.projects__project:hover .content-details {
 	top: 50%;
 	left: 50%;
 	opacity: 1;
