@@ -80,3 +80,14 @@
 .fadeIn-top {
 	top: 20%;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+	.projects-section {
+		padding: 100px 0;
+	}
+	.projects_container {
+		display: grid;
+		grid-gap: 20px;
+		grid-template-columns: 100%;
+		place-items: center;
+	}
+}
