@@ -41,3 +41,32 @@
     color: aliceblue;
     text-align: center;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer {
+        padding: 20px 10px;
+    }
+    .footer__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__container-row1 {
+        width: 50%;
+    }
+    .socials {
+        margin: 30px;
+    }
+    .scl {
+        display: none;
+    }
+    .footer-hr {
+        margin: 10px auto;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    .footer__container-text {
+        font-size: 14px;
+    }
+}
