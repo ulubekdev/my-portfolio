@@ -25,6 +25,7 @@
 	color: #f1f1f1;
 	animation: animate 1s;
 }
+
 @keyframes animate {
 	from{
 		transform: rotateX(90deg);
@@ -70,3 +71,9 @@
 .btn-more:not(:hover) {
 	transition: 0.5s ease-in-out;
 }
+a {
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+@media (max-width: 480px) {}
