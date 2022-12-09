@@ -16,7 +16,7 @@ html {
 	text-transform: uppercase;
 }
 .header hr {
-	width: 5%;
+	width: 10%;
 	margin-top: 10px;
 	border: 2px solid var(--main-color);
 	border-radius: 50px;
@@ -55,10 +55,5 @@ input {
 	border: var(--main-color);
 }
 :root {
-	--home-icon: #f92418;
-	--about-icon: #facf0f;
-	--edu-icon: #ff652f;
-	--pro-icon: #0074d9;
-	--contact-icon: #2ecc40;
-	--main-color: #4cd1ca;
+	--main-color: #019fb6;
 }
