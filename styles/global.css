@@ -36,23 +36,21 @@ input {
 .btn {
 	outline: none;
 	cursor: pointer;
-	border: none;
 	text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
     font-weight: 700;
     border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+	border: 2px solid var(--main-color);
     transition: .3s;
-	background: var(--main-color);
-    color: white;
 	padding: 1.2rem 5rem;
     font-size: 18px;
+	background: transparent;
+	color: #f1f1f1;
 }
 .btn:hover {
-	color: black;
-	background: transparent;
-	border: var(--main-color);
+	color: #f1f1f1;
+	background: var(--main-color);
 }
 :root {
 	--main-color: #48603a;
