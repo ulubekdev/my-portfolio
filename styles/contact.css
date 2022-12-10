@@ -1,9 +1,10 @@
 .contact-section {
 	padding: 100px 330px;
+	color: rgb(207, 207, 207);
+	background-color: #1a1f2c;
 }
 .contact__form-container {
-	box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
-	background: #fff;
+	box-shadow: rgba(130, 130, 150, 0.2) 0 7px 29px 0;
 	padding: 4rem;
 	margin-top: 6rem;
 	max-width: 80rem;
@@ -14,18 +15,17 @@
 }
 .contact__form-input {
 	outline: none;
-	color: #333;
 	padding: 20px;
 	width: 100%;
 	border: 1px solid #ebebeb;
 	font-size: 16px;
 	letter-spacing: 0;
-	background: #f0f0f0;
+	background: #1a1f2c;
 	border-radius: 5px;
 	font-weight: 600;
+	color: rgb(207, 207, 207);
 }
 .contact__form-label {
-	color: #666;
 	font-size: 16px;
 	letter-spacing: 1px;
 	font-weight: 700;

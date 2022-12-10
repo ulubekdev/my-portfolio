@@ -1,7 +1,7 @@
 ScrollReveal().reveal('.header', { duration: 500 });
 
 ScrollReveal().reveal('.about_content-main', { duration: 500 });
-ScrollReveal().reveal('.about-container', { interval: 500 });
+ScrollReveal().reveal('.about-container_content', { interval: 500 });
 
 ScrollReveal().reveal('.about__title', { duration: 500 });
 ScrollReveal().reveal('.skills__skill', { interval: 200 });

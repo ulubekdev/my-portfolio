@@ -3,7 +3,7 @@
     background-color: #111;
 }
 .footer__container {
-    color: aliceblue;
+    color: rgb(207, 207, 207);
     display: flex;
     justify-content: space-between;
 }
@@ -38,7 +38,7 @@
     margin: 50px auto;
 }
 .copyright {
-    color: aliceblue;
+    color: rgb(207, 207, 207);
     text-align: center;
 }
 @media (min-width: 320px) and (max-width: 480px) {

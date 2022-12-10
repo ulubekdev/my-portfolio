@@ -1,20 +1,8 @@
 .home-section {
-	z-index: 1;
-	background-image: linear-gradient(135deg, #28313b, #626d78);
-	animation: gradient 15s ease-in-out infinite;
-	background-size: 400% 400%;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/back.jpeg);
 }
 .home_container {
 	display: flex;

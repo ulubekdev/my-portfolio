@@ -55,7 +55,7 @@ input {
 	border: var(--main-color);
 }
 :root {
-	--main-color: #019fb6;
+	--main-color: #48603a;
 }
 @media (min-width: 320px) and (max-width: 480px) {
 	.btn {
