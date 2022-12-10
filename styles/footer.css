@@ -37,6 +37,21 @@
     width: 100%;
     margin: 50px auto;
 }
+.fa-linkedin-in:hover {
+    color: #0e76a8;
+}
+.fa-github:hover {
+    color: #333;
+}
+.fa-gitlab:hover {
+    color: #fca326;
+}
+.fa-instagram:hover {
+    color: #e1306c;
+}
+.fa-telegram:hover {
+    color: #0088cc;
+}
 .copyright {
     color: rgb(207, 207, 207);
     text-align: center;
