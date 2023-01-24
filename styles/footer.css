@@ -84,4 +84,7 @@
     .footer__container-text {
         font-size: 14px;
     }
+    .footer__container-head {
+        font-size: 10px;
+    }
 }
