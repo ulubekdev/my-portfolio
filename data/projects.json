@@ -4,76 +4,76 @@
         "name": "Yo'lovchi API",
         "description": "A web site that connects passengers and taxi drivers. You can choose a taxi driver by his rating",
         "url": "https://gitlab.com/dev-group55/yulovchi",
-        "image": "../assets/yolovchi.jpg"
+        "image": "../images/yolovchi.jpg"
     },
     {
         "id": 2,
         "name": "Convert To PDF",
         "description": "Conversion is possible for the following file formats: DOC, DOCX, PPTX, PPT, XLSX, PNG, JPEG, JPG, TIFF, TXT.",
         "url": "https://github.com/ulubekdev/convert-to-pdf",
-        "image": "../assets/convert-to-pdf.jpeg"
+        "image": "../images/convert-to-pdf.jpeg"
     },
     {
         "id": 3,
         "name": "Taste Eat",
         "description": "Web design prepared for Coffee restaurants. Pure HTML and CSS are used",
         "url": "https://taste-eat.netlify.app",
-        "image": "../assets/taste-eat.png"
+        "image": "../images/taste-eat.png"
     },
     {
         "id": 4,
         "name": "The Best Future Stars",
         "description":"Web design made of pure HTML and CSS for school and online schools",
         "url": "https://online-schooll.netlify.app",
-        "image": "../assets/online-school.png"
+        "image": "../images/online-school.png"
     },
     {
         "id": 5,
         "name": "Subscription business",
         "description": "Web design for business center services.",
         "url": "https://business-templatee.netlify.app",
-        "image": "../assets/business.png"
+        "image": "../images/business.png"
     },
     {
         "id": 6,
         "name": "Book Site API",
         "description": "APIs designed to find, distribute and download e-books and regular books.",
         "url": "https://github.com/ulubekdev/simple-book-site",
-        "image": "../assets/books.jpg"
+        "image": "../images/books.jpg"
     },
     {
         "id": 7,
         "name": "Chat Web Application",
         "description": "Socket.IO is a library that enables low-latency, bidirectional and event-based communication between a client and a server",
         "url": "https://github.com/ulubekdev/live-chat",
-        "image": "../assets/live.png"
+        "image": "../images/live.png"
     },
     {
         "id": 8,
         "name": "YouTube GraphQL API",
         "description": "Apollo Server is an open-source, spec-compliant GraphQL server that's compatible with any GraphQL client, including Apollo Client.",
         "url": "https://github.com/ulubekdev/youtube-graphql",
-        "image": "../assets/youtube.jpg"
+        "image": "../images/youtube.jpg"
     },
     {
         "id": 9,
         "name": "Job Search API",
         "description": "Sequelize ORM was employed considering the possibility of changing to another relational database later",
         "url": "https://github.com/ulubekdev/backend-job-search",
-        "image": "../assets/job-search.jpg"
+        "image": "../images/job-search.jpg"
     },
     {
         "id": 10,
         "name": "Rock-scissors-paper",
         "description": "Play the old and popular game with an AI bot!",
         "url": "https://funniest-game.netlify.app",
-        "image": "../assets/game.png"
+        "image": "../images/game.png"
     },
     {
         "id": 11,
         "name": "Weather Telegram Bot",
         "description": "A fast and easy-to-use telegram made using the grammy telegram bot framework",
         "url": "https://t.me/havouz_bot",
-        "image": "../assets/weather.jpeg"
+        "image": "../images/weather.jpeg"
     }
 ]
