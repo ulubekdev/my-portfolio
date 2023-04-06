@@ -1,24 +1,24 @@
 const sections = document.querySelectorAll("section");
 const navbarEle = document.querySelectorAll(".topnav a");
-const navbar = document.querySelector('.topnav');
+const navbar = document.querySelector(".topnav");
 
 let sticky = navbar.offsetTop;
 
 window.onscroll = () => {
 	stcky();
-	let curr = ""
+	let curr = "";
 	sections.forEach((section) => {
 		let secTop = section.offsetTop;
-		if( window.pageYOffset + 10 > secTop ) {
+		if (window.pageYOffset + 10 > secTop) {
 			curr = section.getAttribute("id");
 		}
 	});
 	navbarEle.forEach((a) => {
 		a.classList.remove("active");
-		if(a.classList.contains(curr)) {
+		if (a.classList.contains(curr)) {
 			a.classList.add("active");
 		}
-	})
+	});
 };
 
 function stcky() {
